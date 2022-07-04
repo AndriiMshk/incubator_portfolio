@@ -1,0 +1,23 @@
+.main {
+  min-height: 15vh;
+  background-color: #d5d5ff;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.form button {
+  width: 50%;
+}

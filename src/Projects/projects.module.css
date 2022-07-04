@@ -1,0 +1,22 @@
+.main {
+  background-color: #d7eaff;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectItems {
+  background-color: #ffe3e3;
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}

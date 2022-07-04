@@ -1,0 +1,14 @@
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.title {
+  background-color: #ffc8ff;
+}

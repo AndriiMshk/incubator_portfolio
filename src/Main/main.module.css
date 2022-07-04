@@ -1,0 +1,21 @@
+.main {
+  background-color: #fff7ee;
+  flex-direction: row;
+}
+.container {
+  justify-content: space-around;
+}
+
+.greeting {
+  background-color: #c4c4ff;
+  width: 300px;;
+}
+
+.photo {
+  background-color: #c8fbff;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
