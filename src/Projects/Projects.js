@@ -3,8 +3,7 @@ import { projects } from '../data/data';
 import { Title } from '../common/Title/Title';
 import { ProjectItem } from './ProjectItem/ProjectItem';
 import container from '../common/container.module.css';
-import style from './projects.module.css';
-
+import style from './projects.module.scss';
 
 export const Projects = () => {
   const [hover, setHover] = useState(false);
@@ -12,8 +11,8 @@ export const Projects = () => {
     <div
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className={style.main
-      }>
+      className={style.main}
+    >
       <div className={`${container.container} ${style.container}`}>
         <Title title={'Projects'} hover={hover} />
         <div className={style.projectItems}>

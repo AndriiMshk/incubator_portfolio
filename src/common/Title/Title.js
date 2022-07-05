@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './title.module.css'
+import style from './title.module.scss'
 
 export const Title = ({title, hover}) => {
 

@@ -1,0 +1,21 @@
+.main {
+	width: 200px;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	.icon {
+		height: 30px;
+		width: 30px;
+	}
+	.description {
+		height: 100px;
+	}
+	h3 {
+		margin: 0;
+	}
+}
+
+

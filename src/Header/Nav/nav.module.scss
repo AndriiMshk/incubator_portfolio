@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  margin-right: 10px;
+	a {
+		text-decoration: none;
+		color: #ffffff;
+		transition: 0.3s;
+		position: relative;
+		&:hover {
+			color: #337ab7;
+			transition: 0.3s;
+			&::after {
+				width: 100%;
+				transition: 0.3s;
+			}
+		}
+		&::after {
+			position: absolute;
+			content: '';
+			bottom: -5px;
+			height: 1px;
+			width: 0;
+			z-index: 1;
+			left: 50%;
+			transform: translate(-50%, 0%);
+			background-color: #337ab7;
+			transition: 0.3s;
+		}
+	}
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import container from '../common/container.module.css';
-import style from './main.module.css';
-import ava from './img/avatar.png';
+import style from './main.module.scss';
+import ava from '../assets/img/main/avatar.png';
 
 export const Main = () => {
   return (

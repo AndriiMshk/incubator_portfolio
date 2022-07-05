@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
+import { skills } from '../data/data';
 import { SkillItem } from './Skill/SkillItem';
 import container from '../common/container.module.css';
-import style from './skills.module.css';
+import style from './skills.module.scss';
 import { Title } from '../common/Title/Title';
 
 export const Skills = () => {
   const [hover, setHover] = useState(false);
-  const skills = [
-    { title: 'skill 1', description: 'skill description1', icon: '' },
-    { title: 'skill 2', description: 'skill description2 description2', icon: '' },
-    { title: 'skill 3', description: 'skill description3 description3 description3', icon: '' },
-    { title: 'skill 4', description: 'skill description4 description4 description4 description4', icon: '' },
-    { title: 'skill 5', description: 'skill description5 description5 description5', icon: '' },
-    { title: 'skill 6', description: 'skill description6 description6', icon: '' },
-  ];
   return (
     <div
       onMouseEnter={() => setHover(true)}

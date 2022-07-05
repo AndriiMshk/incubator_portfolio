@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Title } from '../common/Title/Title';
 import container from '../common/container.module.css';
-import style from './contacts.module.css';
+import style from './contacts.module.scss';
 
 export const Contacts = () => {
   const [hover, setHover] = useState(false);
