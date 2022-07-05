@@ -1,7 +1,7 @@
 .main {
   width: 250px;
   min-height: 200px;
-  background-color: #f6eebb;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -14,7 +14,7 @@
 }
 
 .image {
-  background-color: #ffe3e3;
+
   min-width: 200px;
   min-height: 200px;
   display: flex;
@@ -32,9 +32,17 @@
 }
 
 .description {
-  background-color: #c4de87;
+
   width: 100%;
   min-height: 60px;
   text-align: start;
 }
 
+@media screen and (max-width: 250px){
+  .image {
+	min-width: 100%;
+  }
+  .project {
+	min-width: 100%;
+  }
+}

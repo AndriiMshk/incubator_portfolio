@@ -1,16 +1,11 @@
 .main {
   min-height: 15vh;
-  background-color: #f6dec0;
+  background: #333;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footerContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  color: #fff;
 }
 
 .items {
@@ -23,16 +18,20 @@
 }
 
 .item {
-  background-color: #c3ffb1;
   width: 30px;
   height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .item img {
   width: 90%;
   height: 90%;
-  text-align: center;
   transition: 0.3s;
+  display: block;
+  color: #fff;
 }
 
 .item img:hover {

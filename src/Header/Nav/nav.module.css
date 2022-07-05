@@ -8,11 +8,30 @@
 
 .main a {
   text-decoration: none;
-  color: black;
-  transition: 0.5s;
+  color: #ffffff;
+  transition: 0.3s;
+  position: relative;
 }
 
 .main a:hover {
-  color: gold;
-  transition: 0.5s;
+  color: #337ab7;
+  transition: 0.3s;
+}
+
+.main a::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  height: 1px;
+  width: 0;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: #337ab7;
+  transition: 0.3s;
+}
+
+.main a:hover::after {
+  width: 100%;
+  transition: 0.3s;
 }

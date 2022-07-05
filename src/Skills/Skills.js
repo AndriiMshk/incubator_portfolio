@@ -2,6 +2,7 @@ import React from 'react';
 import { SkillItem } from './Skill/SkillItem';
 import container from '../common/container.module.css';
 import style from './skills.module.css';
+import { Title } from '../common/Title/Title';
 
 export const Skills = () => {
   const skills = [
@@ -15,7 +16,7 @@ export const Skills = () => {
   return (
     <div className={style.main}>
       <div className={`${container.container} ${style.container}`}>
-        <h2 className={container.title}>Skills</h2>
+        <Title title={'Skills'} />
         <div className={style.skillsItems}>
           {skills.map((el, index) =>
             <SkillItem
