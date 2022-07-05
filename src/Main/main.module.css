@@ -1,19 +1,15 @@
 .main {
-
   flex-direction: row;
 }
 .container {
   justify-content: space-around;
-
 }
 
 .greeting {
-
   width: 300px;;
 }
 
 .photo {
-
   width: 300px;
   height: 400px;
   display: flex;

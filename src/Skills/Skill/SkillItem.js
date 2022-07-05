@@ -8,7 +8,9 @@ return (
       <img src={icon} alt="icon" />
     </div>
     <h3>{title}</h3>
-    <span>{description}</span>
+    <div className={style.description}>
+      {description}
+    </div>
   </div>
 )
 }

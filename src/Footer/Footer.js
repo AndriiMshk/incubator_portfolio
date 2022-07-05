@@ -14,7 +14,7 @@ export const Footer = () => {
       <div className={style.main}>
         <h2 className={container.title}>Name</h2>
         <div className={style.items}>
-          {items.map((el, index) => <div className={style.item}>
+          {items.map((el, index) => <div key={index} className={style.item}>
               <a href={el.src}><img src={el.img} alt="" /></a>
           </div>)}
         </div>

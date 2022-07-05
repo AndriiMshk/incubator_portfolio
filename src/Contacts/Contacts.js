@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Title } from '../common/Title/Title';
 import container from '../common/container.module.css';
 import style from './contacts.module.css';
 
 export const Contacts = () => {
+  const [hover, setHover] = useState(false);
   return (
-    <div className={style.main}>
+    <div
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      className={style.main}
+    >
       <div className={`${container.container} ${style.container}`}>
-        <Title title={'Contacts'} />
+        <Title title={'Contacts'} hover={hover} />
         <form action="">
           <div className={style.form}>
             <input type="text" />
