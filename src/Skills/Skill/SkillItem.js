@@ -7,7 +7,9 @@ export const SkillItem = ({ title, description, icon }) => {
       <div className={style.icon}>
         <img src={icon} alt="icon" />
       </div>
-      <h3>{title}</h3>
+      <div className={style.title}>
+        <h3>{title}</h3>
+      </div>
       <div className={style.description}>
         {description}
       </div>

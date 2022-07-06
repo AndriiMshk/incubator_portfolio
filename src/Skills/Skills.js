@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { skills } from '../data/data';
 import { SkillItem } from './Skill/SkillItem';
-import container from '../common/container.module.css';
+import container from '../common/styles/container.module.css';
 import style from './skills.module.scss';
 import { Title } from '../common/Title/Title';
 
@@ -20,6 +20,7 @@ export const Skills = () => {
             <SkillItem
               key={index}
               title={el.title}
+              icon={el.icon}
               description={el.description}
             />)
           }

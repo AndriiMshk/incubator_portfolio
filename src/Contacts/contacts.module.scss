@@ -1,3 +1,4 @@
+@import "../../src/common/styles/scss/var.scss";
 .main {
 	min-height: 15vh;
 	.container {
@@ -6,24 +7,46 @@
 		flex-wrap: nowrap;
 		.form {
 			display: flex;
+			width: 40%;
 			flex-direction: column;
 			justify-content: space-around;
 			gap: 10px;
 			align-items: center;
 			margin-bottom: 10px;
 			margin-top: 20px;
-			input,
+			input{
+				width: 100%;
+				height: 25px;
+				border-radius: 5px;
+				border: 2px solid $bgColorTwo;
+				&:focus {
+					border: 2px solid $hoverTextColor;
+					background: rgba(51, 122, 183, 0.05);
+					outline: none;
+				}
+			}
 			textarea {
 				width: 100%;
+				height: 50px;
+				border-radius: 5px;
+				border: 2px solid $bgColorTwo;
+				&:focus {
+					border: 2px solid $hoverTextColor;
+					background: rgba(51, 122, 183, 0.05);
+					outline: none;
+				}
 			}
 			button {
 				width: 50%;
+				height: 40px;
+				font-size: 15px;
+				border: 1px solid $bgColorTwo;
 				border-radius: 5px;
 				transition: 0.3s;
 				&:hover {
 					transition: 0.3s;
-					background-color: #337ab7;
-					color: #fff;
+					background-color: $hoverTextColor;
+					color: $bgColor;
 				}
 			}
 		}

@@ -1,14 +1,22 @@
 .main {
-	width: 200px;
-	min-height: 200px;
+	width: 400px;
+	min-height: 100px;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
-	text-align: center;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 10px;
 	.icon {
 		height: 30px;
 		width: 30px;
+		img {
+			height: 30px;
+			width: 30px;
+			margin-right: 5px;
+		}
+
+	}
+	.title {
+		width: 100px;
 	}
 	.description {
 		height: 100px;

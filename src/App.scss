@@ -1,7 +1,9 @@
+@import "common/styles/scss/var.scss";
+
 .App {
   font-size: 15px;
   line-height: 1.7;
   font-family: 'Raleway', sans-serif;
-  background: #fff;
-  color: #777777;
+  background: $bgColor;
+  color: $textColor;
 }

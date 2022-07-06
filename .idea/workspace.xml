@@ -20,29 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b145273-85ae-4c61-b739-d418a6609527" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/scss/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/scss/var.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contacts/contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contacts/contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/contacts.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/img/git.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/footer/git.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Nav/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Nav/nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Nav/nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Nav/nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/img/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/main/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/main.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/ProjectItem/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/ProjectItem/ProjectItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/projects.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skill/SkillItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/SkillItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skill/skillIlem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/skillIlem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skill/skillIlem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/skillIlem.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Title/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Title/title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Title/title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/footer/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Title/title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Title/title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/container.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +59,7 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -72,19 +78,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/Title" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Footer" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\incubator\portfolio1\portfolio\src\common\Title" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Footer" />
-      <recent name="D:\Code\incubator\portfolio1\portfolio\src\Contacts" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Projects\ProjectItem" />
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\common\Title" />
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\Contacts" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\common\styles" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets\img\main" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets\img\footer" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets" />
@@ -143,7 +150,7 @@
       <workItem from="1656939849298" duration="5000" />
       <workItem from="1656939892250" duration="9645000" />
       <workItem from="1656949654764" duration="11483000" />
-      <workItem from="1657017908924" duration="23187000" />
+      <workItem from="1657017908924" duration="49934000" />
     </task>
     <servers />
   </component>
@@ -167,10 +174,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1656949606902" />
-    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1656941869322">
+    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1657117983172">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1656941869322" />
+    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657117983172" />
     <state x="660" y="318" key="EditFileWatcherDialog" timestamp="1657044333824">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -191,9 +198,13 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1837" height="295" key="GridCell.Tab.0.right/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657039917914" />
-    <state x="687" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1657030489786">
+    <state x="687" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1657114548411">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="687" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657030489786" />
+    <state x="687" y="169" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657114548411" />
+    <state x="647" y="250" key="run.anything.popup" timestamp="1657102390668">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="647" y="250" key="run.anything.popup/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657102390668" />
   </component>
 </project>

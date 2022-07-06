@@ -1,11 +1,14 @@
+@import "../../src/common/styles/scss/var.scss";
+
 .main {
 	min-height: 15vh;
-	background: #333;
+	background-image: url('../assets/img/texture-abstraction_(36).jpg');
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: #fff;
+	color: $bgColor;
+	box-shadow: 0 -3px 15px $bgColorTwo;
 	.items {
 		display: flex;
 		justify-content: space-between;
@@ -21,15 +24,18 @@
 			align-items: center;
 			justify-content: space-around;
 			img {
-				width: 90%;
-				height: 90%;
+				width: 100%;
+				height: 100%;
+				background-color: transparent;
 				transition: 0.3s;
 				display: block;
-				color: #fff;
+				color: $bgColor;
+				border: 1px solid transparent;
+				border-radius: 50%;
 				&:hover {
-					width: 100%;
-					height: 100%;
 					transition: 0.3s;
+					transform: scale(0.95, 0.95);
+					box-shadow: 0 0 3px 3px $hoverTextColor;
 				}
 			}
 		}

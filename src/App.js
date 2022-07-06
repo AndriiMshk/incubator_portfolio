@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { Footer } from './Footer/Footer';
 import { Contacts } from './Contacts/Contacts';
 import { Projects } from './Projects/Projects';

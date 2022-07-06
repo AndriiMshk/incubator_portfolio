@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Title } from '../common/Title/Title';
-import container from '../common/container.module.css';
+import container from '../common/styles/container.module.css';
 import style from './contacts.module.scss';
 
 export const Contacts = () => {
@@ -12,14 +12,12 @@ export const Contacts = () => {
       className={style.main}
     >
       <div className={`${container.container} ${style.container}`}>
-        <Title title={'Contacts'} hover={hover} />
-        <form action="">
-          <div className={style.form}>
-            <input type="text" />
-            <input type="text" />
-            <textarea></textarea>
-            <button>send</button>
-          </div>
+        <Title title={'Contact me'} hover={hover} />
+        <form action="" className={style.form}>
+          <input type="text" placeholder={'Name'} />
+          <input type="text" placeholder={'Email'} />
+          <textarea placeholder={'Message'} />
+          <button>send</button>
         </form>
       </div>
     </div>

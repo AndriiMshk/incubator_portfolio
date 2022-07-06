@@ -1,3 +1,5 @@
+@import "../../common/styles/scss/var.scss";
+@import "../../common/styles/scss/mixins";
 .main {
   display: flex;
   justify-content: space-around;
@@ -6,11 +8,11 @@
   margin-right: 10px;
 	a {
 		text-decoration: none;
-		color: #ffffff;
+		color: $bgColor;
 		transition: 0.3s;
 		position: relative;
 		&:hover {
-			color: #337ab7;
+			color: $hoverTextColor;
 			transition: 0.3s;
 			&::after {
 				width: 100%;
@@ -18,16 +20,7 @@
 			}
 		}
 		&::after {
-			position: absolute;
-			content: '';
-			bottom: -5px;
-			height: 1px;
-			width: 0;
-			z-index: 1;
-			left: 50%;
-			transform: translate(-50%, 0%);
-			background-color: #337ab7;
-			transition: 0.3s;
+			@include showBottomHoverLine();
 		}
 	}
 }

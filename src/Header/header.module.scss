@@ -1,0 +1,14 @@
+@import "../../src/common/styles/scss/var.scss";
+
+.main {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  //background: $bgColorTwo;
+	background-image: url('../assets/img/texture-abstraction_(36).jpg');
+  height: 80px;
+	box-shadow: 0 3px 15px $bgColorTwo;
+}

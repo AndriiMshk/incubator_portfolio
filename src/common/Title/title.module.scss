@@ -1,3 +1,5 @@
+@import "../../common/styles/scss/var.scss";
+
 .title {
   margin-bottom: 35px;
   position: relative;
@@ -7,7 +9,7 @@
 		bottom: -20px;
 		width: 50px;
 		height: 1px;
-		background: #777777;
+		background: $textColor;
 		z-index: 1;
 		left: 50%;
 		transform: translate(-50%, 0%);
@@ -22,10 +24,10 @@
 }
 .hover.title::after {
   width: 100px;
-  background-color: #337ab7;
+  background-color: $hoverTextColor;
   transition: 0.3s;
 }
 .hover h2 {
-  color: #337ab7;
+  color: $hoverTextColor;
   transition: 0.3s;
 }

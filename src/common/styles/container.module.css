@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   box-sizing: border-box;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 /*
@@ -36,5 +37,7 @@
         button 14
 scss     .scss
 timecode 2:20
+		 2:35
+		 2:50
 
 */

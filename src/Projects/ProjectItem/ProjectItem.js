@@ -9,15 +9,17 @@ export const ProjectItem = ({ title, description, image }) => {
       onMouseLeave={() => setHover(false)}
       className={style.main}
     >
-      <div className={
-        hover
-          ? `${style.image} ${style.hover}`
-          : style.image}
-           style={{ backgroundImage: `url(${image})` }}>
-        <a href="">Open</a>
-      </div>
+      <a href="https://github.com/AndrMshk/portfolio">
+        <div className={
+          hover
+            ? `${style.image} ${style.hover}`
+            : style.image}
+             style={{ backgroundImage: `url(${image})` }}>
+          {/*<button>open</button>*/}
+        </div>
+      </a>
       <div className={style.project}>
-        <div className={hover && `${style.hover}`}>
+        <div className={hover ? `${style.hover}` : ''}>
           <h3>{title}</h3>
         </div>
         <div className={style.description}>
