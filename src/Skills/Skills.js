@@ -12,6 +12,7 @@ export const Skills = () => {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={style.main}
+      id={'skills'}
     >
       <div className={`${container.container} ${style.container}`}>
         <Title title={'Skills'} hover={hover} />

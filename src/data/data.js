@@ -24,7 +24,7 @@ export const projects = [
   },
   {
     title: 'TodoList', description: 'Typescript, React, ' +
-      'Redux, Rest API, hooks, axios, thunk, Storybook, Jest', image: todo,
+      'Redux, formik, Rest API, hooks, axios, thunk, Storybook, Jest', image: todo,
   },
   { title: 'project 2', description: 'projects description2', image: social },
   { title: 'project 2', description: 'projects description2', image: social },
@@ -39,7 +39,7 @@ export const footerItems = [
 
 export const skills = [
   { title: 'React', description: 'TypeScript, Javascript, classes, hooks, Routes', icon: react },
-  { title: 'Redux', description: 'FLUX, redux-form, thunk, saga', icon: redux },
+  { title: 'Redux', description: 'Redux Toolkit, FLUX, redux-form, formik, thunk, saga', icon: redux },
   { title: 'HTML+CSS', description: 'Saas(SCSS), adaptive, Material UI, Ant Design, Styled-components', icon: html },
   { title: 'Rest API', description: 'ajax, axois, fetch, CRUD', icon: rest },
   { title: 'jQuery', description: 'basic', icon: jquery },

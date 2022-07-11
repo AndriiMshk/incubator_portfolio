@@ -11,18 +11,22 @@ export const Main = () => {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={style.main}
+      id={'main'}
     >
       <div className={`${container.container} ${style.container}`}>
         <div className={style.photo}>
           <img src={ava} alt="ava" />
         </div>
         <div className={style.greeting}>
-          <Title title={'About me'} hover={hover}/>
-          <h1>Andrii Moshko</h1>
-          <h3>Front-end Developer</h3>
-          <p>Kyiv, Ukraine, 34 year old</p>
+          <div className={style.title}>
+            <Title title={'About me'} hover={hover}/>
+          </div>
+          <div>
+            <h1>Andrii Moshko</h1>
+            <h3>Front-end Developer</h3>
+            <p>Kyiv, Ukraine, 34 year old</p>
+          </div>
         </div>
-
       </div>
     </div>
   );

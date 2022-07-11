@@ -10,6 +10,7 @@ export const Contacts = () => {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={style.main}
+      id={'contacts'}
     >
       <div className={`${container.container} ${style.container}`}>
         <Title title={'Contact me'} hover={hover} />
