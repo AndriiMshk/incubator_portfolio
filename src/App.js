@@ -14,10 +14,18 @@ function App() {
       <Main/>
       <Skills/>
       <Projects/>
-      <Contacts/>
+      <Contacts/> vb
       <Footer/>
     </div>
   );
 }
 
 export default App;
+
+
+// partical js  прикодбный еффект фона
+// react-reveal плавно появляются элементы при скрололе на них
+// react typing effect для текста типа он печатается на ходу
+// > сделать в апп чаилды через один с разным немного фоном
+ // react-tilt для ховера на фото
+// react-scroll для плавного скролла

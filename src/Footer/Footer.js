@@ -5,16 +5,15 @@ import style from './footer.module.scss';
 
 export const Footer = () => {
   return (
-    <div className={style.main}>
+    <footer className={style.main}>
       <h2>Andrii Moshko</h2>
       <div className={style.items}>
         {footerItems.map((el, index) => <div key={index} className={style.item}>
           <a href={el.src}><img src={el.icon} alt="icon" /></a>
-
         </div>)}
       </div>
       <h4>2022 © all rights reserved</h4>
-    </div>
+    </footer>
   );
 };
 

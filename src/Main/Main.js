@@ -7,7 +7,7 @@ import ava from '../assets/img/main/avatar.png';
 export const Main = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div
+    <main
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={style.main}
@@ -28,7 +28,7 @@ export const Main = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

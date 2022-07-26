@@ -4,9 +4,9 @@ import style from './header.module.scss'
 
 export const Header = () =>  {
   return (
-    <div className={style.main}>
+    <header className={style.main}>
       <Nav/>
-    </div>
+    </header>
   );
 }
 

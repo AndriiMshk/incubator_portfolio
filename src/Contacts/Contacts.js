@@ -6,7 +6,7 @@ import style from './contacts.module.scss';
 export const Contacts = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div
+    <section
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={style.main}
@@ -18,10 +18,10 @@ export const Contacts = () => {
           <input type="text" placeholder={'Name'} />
           <input type="text" placeholder={'Email'} />
           <textarea placeholder={'Message'} />
-          <button onClick={(e)=>{e.preventDefault()}}>send</button>
+          <button onClick={(e) => {e.preventDefault();}} type={'submit'}>send</button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

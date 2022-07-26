@@ -8,7 +8,7 @@ import style from './projects.module.scss';
 export const Projects = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div
+    <section
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={style.main}
@@ -27,6 +27,6 @@ export const Projects = () => {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };

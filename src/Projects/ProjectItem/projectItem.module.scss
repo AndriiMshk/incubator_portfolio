@@ -24,6 +24,9 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
+		@media screen and (max-width: 250px) {
+			min-width: 100%;
+		}
 		&:hover {
 			transform: scale(0.95, 0.95);
 		}
@@ -51,6 +54,9 @@
 		width: 70%;
 		@include flex('', column, center);
 		margin-bottom: 5px;
+		@media screen and (max-width: 250px) {
+			min-width: 100%;
+		}
 		.description {
 			width: 100%;
 			min-height: 100px;
@@ -78,13 +84,3 @@
 	}
 }
 
-
-//REFACTOR
-@media screen and (max-width: 250px) {
-	.image {
-		min-width: 100%;
-	}
-	.project {
-		min-width: 100%;
-	}
-}

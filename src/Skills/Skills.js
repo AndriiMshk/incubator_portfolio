@@ -8,14 +8,14 @@ import { Title } from '../common/Title/Title';
 export const Skills = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div
+    <section
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={style.main}
       id={'skills'}
     >
       <div className={`${container.container} ${style.container}`}>
-        <Title title={'Skills'} hover={hover} />
+        <Title title="Skills" hover={hover} />
         <div className={style.skillsItems}>
           {skills.map((el, index) =>
             <SkillItem
@@ -27,7 +27,7 @@ export const Skills = () => {
           }
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
