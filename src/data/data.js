@@ -1,7 +1,6 @@
 import git from '../assets/img/footer/git.png';
 import telegram from '../assets/img/footer/telegram.png';
 import linkedin from '../assets/img/footer/linkedin.png';
-import hh from '../assets/img/footer/hh.png';
 
 import social from '../assets/img/projects/social.jpeg';
 import todo from '../assets/img/projects/todo2.jpg';
@@ -20,27 +19,27 @@ import postman from '../../src/assets/img/skills/postman.png';
 export const projects = [
   {
     title: 'Social Network', description: 'Typescript, React, ' +
-      'Redux, Rest API, Routes, classes, axios, thunk, redux-form', image: social,
+      'Redux, Rest API, Routes, classes, axios, thunk, redux-form, AntDesign', image: social,
   },
   {
     title: 'TodoList', description: 'Typescript, React, ' +
-      'Redux, formik, Rest API, hooks, axios, thunk, Storybook, Jest', image: todo,
+      'Redux, formik, Rest API, hooks, axios, thunk, Storybook, Jest, MUI', image: todo,
   },
-  { title: 'project 2', description: 'projects description2', image: social },
-  { title: 'project 2', description: 'projects description2', image: social },
+  { title: 'Cards', description: 'Typescript, React, ' +
+      'Redux, formik, Rest API, hooks, axios, thunk, MUI', image: social },
+  { title: 'Portfolio', description: 'Javascript, React, Saas(SCSS)', image: social },
 ];
 
 export const footerItems = [
   { img: git, src: 'https://github.com/AndrMshk', icon: git },
   { img: telegram, src: 'https://t.me/andr_default', icon: telegram },
-  { img: linkedin, src: '', icon: linkedin },
-  { img: hh, src: '', icon: hh },
+  { img: linkedin, src: 'https://www.linkedin.com/in/adrdii-moshko-913822242/', icon: linkedin },
 ];
 
 export const skills = [
   { title: 'React', description: 'TypeScript, Javascript, classes, hooks, Routes', icon: react },
   { title: 'Redux', description: 'Redux Toolkit, FLUX, redux-form, formik, thunk, saga', icon: redux },
-  { title: 'HTML+CSS', description: 'Saas(SCSS), adaptive, Material UI, Ant Design, Styled-components', icon: html },
+  { title: 'HTML+CSS', description: 'Saas(SCSS), adaptive, Material UI, Ant Design', icon: html },
   { title: 'Rest API', description: 'ajax, axois, fetch, CRUD', icon: rest },
   { title: 'jQuery', description: 'basic', icon: jquery },
   { title: 'Jest', description: 'Unit tests', icon: jest },

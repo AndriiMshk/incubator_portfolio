@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Title } from '../common/Title/Title';
-import container from '../common/styles/container.module.css';
+import container from '../common/styles/container.module.scss';
 import style from './main.module.scss';
 import ava from '../assets/img/main/avatar.png';
 

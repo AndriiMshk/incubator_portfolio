@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Title } from '../common/Title/Title';
-import container from '../common/styles/container.module.css';
+import container from '../common/styles/container.module.scss';
 import style from './contacts.module.scss';
 
 export const Contacts = () => {
@@ -18,7 +18,7 @@ export const Contacts = () => {
           <input type="text" placeholder={'Name'} />
           <input type="text" placeholder={'Email'} />
           <textarea placeholder={'Message'} />
-          <button>send</button>
+          <button onClick={(e)=>{e.preventDefault()}}>send</button>
         </form>
       </div>
     </div>

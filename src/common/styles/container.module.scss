@@ -1,13 +1,15 @@
+@import "../styles/scss/mixins.scss";
+@import "../styles/scss/var.scss";
+
+
 .container {
   width: 80%;
   max-width: 1500px;
   height: 100%;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
+	@include flex(space-between, '', center);
   flex-wrap: wrap;
   box-sizing: border-box;
-  justify-content: space-between;
   padding-bottom: 30px;
 }
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { projects } from '../data/data';
 import { Title } from '../common/Title/Title';
 import { ProjectItem } from './ProjectItem/ProjectItem';
-import container from '../common/styles/container.module.css';
+import container from '../common/styles/container.module.scss';
 import style from './projects.module.scss';
 
 export const Projects = () => {

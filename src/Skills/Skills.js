@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { skills } from '../data/data';
 import { SkillItem } from './Skill/SkillItem';
-import container from '../common/styles/container.module.css';
+import container from '../common/styles/container.module.scss';
 import style from './skills.module.scss';
 import { Title } from '../common/Title/Title';
 
