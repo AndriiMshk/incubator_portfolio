@@ -1,9 +1,8 @@
 @import "../../common/styles/scss/var.scss";
 @import "../../common/styles/scss/mixins";
+
 .main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+	@include flex(space-around, '', center);
   width: 300px;
   margin-right: 10px;
 	a {

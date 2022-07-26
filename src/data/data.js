@@ -27,7 +27,7 @@ export const projects = [
   },
   { title: 'Cards', description: 'Typescript, React, ' +
       'Redux, formik, Rest API, hooks, axios, thunk, MUI', image: social },
-  { title: 'Portfolio', description: 'Javascript, React, Saas(SCSS)', image: social },
+  // { title: 'Portfolio', description: 'Javascript, React, Saas(SCSS)', image: social },
 ];
 
 export const footerItems = [

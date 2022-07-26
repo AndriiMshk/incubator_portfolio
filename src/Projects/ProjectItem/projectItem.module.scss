@@ -2,14 +2,14 @@
 @import "../../common/styles/scss/mixins.scss";
 
 .main {
-  width: 250px;
-  min-height: 400px;
+	width: 250px;
+	min-height: 400px;
 	@include flex('', column, center);
-  display: flex;
-  text-align: center;
-  transition: 0.3s;
-  border: 2px solid transparent;
-  border-radius: 15px;
+	display: flex;
+	text-align: center;
+	transition: 0.3s;
+	border: 2px solid transparent;
+	border-radius: 15px;
 	&:hover {
 		transition: 0.3s;
 		background-color: $hoverBgColor;
@@ -69,16 +69,8 @@
 		transition: 0.3s;
 		position: relative;
 		&::after {
-			position: absolute;
-			content: '';
+			@include showBottomHoverLine();
 			bottom: -10px;
-			height: 1px;
-			width: 0;
-			z-index: 1;
-			left: 50%;
-			transform: translate(-50%, 0%);
-			background-color: $hoverTextColor;
-			transition: 0.3s;
 		}
 	}
 	p {
@@ -89,10 +81,10 @@
 
 //REFACTOR
 @media screen and (max-width: 250px) {
-  .image {
-	min-width: 100%;
-  }
-  .project {
-	min-width: 100%;
-  }
+	.image {
+		min-width: 100%;
+	}
+	.project {
+		min-width: 100%;
+	}
 }

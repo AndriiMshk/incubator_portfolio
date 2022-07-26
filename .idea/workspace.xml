@@ -19,20 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b145273-85ae-4c61-b739-d418a6609527" name="Default Changelist" comment="some fix Skills.js">
+    <list default="true" id="3b145273-85ae-4c61-b739-d418a6609527" name="Default Changelist" comment="add mixin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contacts/contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Nav/nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Nav/nav.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/projects.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/container.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Title/title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Title/title.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,9 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +131,7 @@
       <workItem from="1657123543590" duration="121000" />
       <workItem from="1657533271733" duration="264000" />
       <workItem from="1657553867312" duration="2390000" />
-      <workItem from="1658826135660" duration="3598000" />
+      <workItem from="1658826135660" duration="5785000" />
     </task>
     <task id="LOCAL-00001" summary="max width container.module.css">
       <created>1657120043097</created>
@@ -156,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657556039338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add mixin">
+      <created>1658829982093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658829982093</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="max width container.module.css" />
     <MESSAGE value="some fix Skills.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fix Skills.js" />
+    <MESSAGE value="add mixin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mixin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1656949606902">
@@ -192,34 +191,35 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="660" y="318" key="EditFileWatcherDialog/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657044333824" />
-    <state width="1899" height="284" key="GridCell.Tab.0.bottom" timestamp="1658827407555">
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom" timestamp="1658832607875">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.bottom/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277977" />
-    <state width="1899" height="284" key="GridCell.Tab.0.bottom/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658827407555" />
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658832607875" />
     <state width="1837" height="295" key="GridCell.Tab.0.bottom/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state width="1899" height="284" key="GridCell.Tab.0.center" timestamp="1658827407555">
+    <state width="1899" height="284" key="GridCell.Tab.0.center" timestamp="1658832607875">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.center/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277977" />
-    <state width="1899" height="284" key="GridCell.Tab.0.center/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658827407555" />
+    <state width="1899" height="284" key="GridCell.Tab.0.center/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658832607875" />
     <state width="1837" height="295" key="GridCell.Tab.0.center/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state width="1899" height="284" key="GridCell.Tab.0.left" timestamp="1658827407555">
+    <state width="1899" height="284" key="GridCell.Tab.0.left" timestamp="1658832607874">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.left/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277976" />
-    <state width="1899" height="284" key="GridCell.Tab.0.left/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658827407555" />
+    <state width="1899" height="284" key="GridCell.Tab.0.left/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658832607874" />
     <state width="1837" height="295" key="GridCell.Tab.0.left/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state width="1899" height="284" key="GridCell.Tab.0.right" timestamp="1658827407555">
+    <state width="1899" height="284" key="GridCell.Tab.0.right" timestamp="1658832607875">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.right/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277977" />
-    <state width="1899" height="284" key="GridCell.Tab.0.right/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658827407555" />
+    <state width="1899" height="284" key="GridCell.Tab.0.right/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658832607875" />
     <state width="1837" height="295" key="GridCell.Tab.0.right/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state x="538" y="250" key="Vcs.Push.Dialog.v2" timestamp="1657556041699">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="538" y="252" key="Vcs.Push.Dialog.v2" timestamp="1658829983444">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="538" y="250" key="Vcs.Push.Dialog.v2/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556041699" />
+    <state x="538" y="252" key="Vcs.Push.Dialog.v2/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658829983444" />
     <state x="583" y="260" key="Vcs.Push.Dialog.v2/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120046727" />
     <state x="646" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1658828258416">
       <screen x="0" y="0" width="1920" height="1050" />
