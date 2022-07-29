@@ -12,35 +12,11 @@
 	border-radius: 15px;
 	&:hover {
 		transition: 0.3s;
-		background-color: $hoverBgColor;
+		background-color: white;
 	}
 	.image {
 		min-width: 200px;
 		min-height: 200px;
-		@include flex('', center, center);
-		margin-top: 5px;
-		border-radius: 15px;
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		position: relative;
-		@media screen and (max-width: 250px) {
-			min-width: 100%;
-		}
-		&:hover {
-			transform: scale(0.95, 0.95);
-		}
-		&::before {
-			position: absolute;
-			content: '';
-			background-color: $bgColorTwo;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			opacity: 5%;
-			border-radius: 15px;
-		}
 	}
 	.hover {
 		color: $hoverTextColor;

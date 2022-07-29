@@ -6,4 +6,16 @@
   font-family: 'Raleway', sans-serif;
   background: $bgColor;
   color: $textColor;
+	main {
+		background-color: $hoverBgColor;
+	}
+	> section {
+		&:nth-child(n) {
+			background-color: white;
+		}
+		&:nth-child(2n) {
+			background-color: $hoverBgColor;
+		}
+
+	}
 }

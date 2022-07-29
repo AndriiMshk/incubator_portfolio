@@ -20,3 +20,10 @@
 	align-items: $align-items;
 
 }
+@mixin rotateBurgerMenu($deg) {
+	transform: rotate($deg);
+	top: 0;
+	z-index: 3;
+	background-color: $bgColor;
+	transition: all 0.2s;
+}

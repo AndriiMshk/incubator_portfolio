@@ -2,9 +2,11 @@
 @import "../../common/styles/scss/mixins";
 
 .main {
+	position: absolute;
+	right: 10px;
+	top: 25px;
 	@include flex(space-around, '', center);
-  width: 300px;
-  margin-right: 10px;
+	width: 300px;
 	a {
 		text-decoration: none;
 		color: $bgColor;
@@ -13,6 +15,7 @@
 		&:hover {
 			color: $hoverTextColor;
 			transition: 0.3s;
+			cursor: pointer;
 			&::after {
 				width: 100%;
 				transition: 0.3s;
@@ -21,5 +24,8 @@
 		&::after {
 			@include showBottomHoverLine();
 		}
+	}
+	@media screen and (max-width: 675px){
+		display: none;
 	}
 }

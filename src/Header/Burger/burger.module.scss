@@ -1,0 +1,87 @@
+@import "../../common/styles/scss/var.scss";
+@import "../../common/styles/scss/mixins";
+
+.main {
+	@media screen and (min-width: 675px) {
+		display: none
+	}
+	.list {
+		transition: all 0.5s;
+		overflow: hidden;
+		height: 0;
+		background-image: url('../../assets/img/texture-abstraction_(36).jpg');
+		box-shadow: none;
+		@include flex(space-around, column, center);
+		a {
+			text-decoration: none;
+			color: transparent;
+			transition: 0.3s;
+			position: relative;
+			cursor: pointer;
+		}
+	}
+	.visible {
+		height: 170px;
+		box-shadow: 0 3px 15px $bgColorTwo;
+		a {
+			color: $bgColor;
+		}
+	}
+	.buttonContainer {
+		height: 26px;
+		width: 26px;
+		position: absolute;
+		top: 25px;
+		right: 25px;
+		cursor: pointer;
+		.button {
+			position: absolute;
+			top: 13px;
+			background-color: $bgColor;
+			display: block;
+			width: 26px;
+			height: 3px;
+			transition: all 0.2s;
+			&:before,
+			&::after {
+				position: absolute;
+				display: block;
+				content: "";
+				width: 26px;
+				height: 3px;
+				background-color: $bgColor;
+				transition: all 0.2s;
+			}
+			&:before {
+				top: 10px;
+			}
+			&:after {
+				bottom: 10px;
+			}
+			&:hover {
+				background-color: $hoverTextColor;
+				transition: all 0.2s;
+				&:after, &:before {
+					background-color: $hoverTextColor;
+					transition: all 0.2s;
+				}
+			}
+		}
+		.open {
+			background: transparent;
+			transition: all 0.2s;
+			z-index: 30;
+			&:hover {
+				background: transparent;
+				z-index: 30;
+				transition: all 0.2s;
+			}
+			&:after {
+				@include rotateBurgerMenu(45deg);
+			}
+			&:before {
+				@include rotateBurgerMenu(-45deg);
+			}
+		}
+	}
+}

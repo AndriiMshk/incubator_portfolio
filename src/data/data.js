@@ -4,6 +4,7 @@ import linkedin from '../assets/img/footer/linkedin.png';
 
 import social from '../assets/img/projects/social.jpeg';
 import todo from '../assets/img/projects/todo2.jpg';
+import rs from '../assets/img/projects/rs_portf.png';
 
 import react from '../../src/assets/img/skills/react.png';
 import redux from '../../src/assets/img/skills/redux.png';
@@ -20,14 +21,18 @@ export const projects = [
   {
     title: 'Social Network', description: 'Typescript, React, ' +
       'Redux, Rest API, Routes, classes, axios, thunk, redux-form, AntDesign', image: social,
+    link: 'https://andrmshk.github.io/portfolio-RS/'
   },
   {
     title: 'TodoList', description: 'Typescript, React, ' +
       'Redux, formik, Rest API, hooks, axios, thunk, Storybook, Jest, MUI', image: todo,
+    link: 'https://andrmshk.github.io/portfolio-RS/'
   },
   { title: 'Cards', description: 'Typescript, React, ' +
-      'Redux, formik, Rest API, hooks, axios, thunk, MUI', image: social },
-  // { title: 'Portfolio', description: 'Javascript, React, Saas(SCSS)', image: social },
+      'Redux, formik, Rest API, hooks, axios, thunk, MUI', image: social,
+    link: 'https://andrmshk.github.io/portfolio-RS/' },
+  { title: 'RS School Project', description: 'Javascript, CSS', image: rs,
+    link: 'https://andrmshk.github.io/portfolio-RS/'},
 ];
 
 export const footerItems = [

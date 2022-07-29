@@ -2,12 +2,14 @@
 @import "../../src/common/styles/scss/mixins.scss";
 
 .main {
-	flex-direction: row;
-	padding-top: 50px;
+	@include flex(space-between, row, center);
+	//padding-top: 50px;
+	min-height: 500px;
 	.container {
 		justify-content: space-around;
 		.greeting {
-			width: 300px;;
+			width: 300px;
+			padding-left: 30px;
 			@include flex('', column, flex-start);
 			.title {
 				@media screen and (max-width: 775px){
@@ -18,7 +20,7 @@
 		}
 		.photo {
 			width: 300px;
-			height: 400px;
+			height: 300px;
 			@include flex(space-around, '', center);
 		}
 		@media screen and (max-width: 770px) {
@@ -27,8 +29,9 @@
 	}
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 810px) {
 	.photo {
+		padding-top: 70px;
 		width: 100%;
 	}
 	.greeting {
