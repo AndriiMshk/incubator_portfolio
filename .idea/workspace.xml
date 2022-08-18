@@ -19,29 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b145273-85ae-4c61-b739-d418a6609527" name="Default Changelist" comment="add comments">
-      <change afterPath="$PROJECT_DIR$/src/Header/Burger/Burger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header/Burger/burger.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="3b145273-85ae-4c61-b739-d418a6609527" name="Default Changelist" comment="add fade and burgerButton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Nav/nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Nav/nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/ProjectItem/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/ProjectItem/ProjectItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/ProjectItem/projectItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skill/SkillItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skill/SkillItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/scss/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +135,10 @@
       <workItem from="1658935579526" duration="657000" />
       <workItem from="1659008523378" duration="4475000" />
       <workItem from="1659020319352" duration="2746000" />
-      <workItem from="1659085309303" duration="6266000" />
+      <workItem from="1659085309303" duration="6324000" />
+      <workItem from="1659696796565" duration="192000" />
+      <workItem from="1660745303450" duration="1287000" />
+      <workItem from="1660828657811" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="max width container.module.css">
       <created>1657120043097</created>
@@ -191,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658845052408</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add fade and burgerButton">
+      <created>1659093905321</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659093905321</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +206,8 @@
     <MESSAGE value="add mixin" />
     <MESSAGE value="add mixin1" />
     <MESSAGE value="add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
+    <MESSAGE value="add fade and burgerButton" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fade and burgerButton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1656949606902">
@@ -232,35 +224,35 @@
     </state>
     <state x="618" y="309" key="EditFileWatcherDialog/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658935982220" />
     <state x="660" y="318" key="EditFileWatcherDialog/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657044333824" />
-    <state width="1899" height="272" key="GridCell.Tab.0.bottom" timestamp="1659093138504">
+    <state width="1899" height="272" key="GridCell.Tab.0.bottom" timestamp="1660828753955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.bottom/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277977" />
-    <state width="1899" height="272" key="GridCell.Tab.0.bottom/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1659093138504" />
+    <state width="1899" height="272" key="GridCell.Tab.0.bottom/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1660828753955" />
     <state width="1837" height="295" key="GridCell.Tab.0.bottom/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state width="1899" height="272" key="GridCell.Tab.0.center" timestamp="1659093138504">
+    <state width="1899" height="272" key="GridCell.Tab.0.center" timestamp="1660828753955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.center/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277977" />
-    <state width="1899" height="272" key="GridCell.Tab.0.center/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1659093138504" />
+    <state width="1899" height="272" key="GridCell.Tab.0.center/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1660828753955" />
     <state width="1837" height="295" key="GridCell.Tab.0.center/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state width="1899" height="272" key="GridCell.Tab.0.left" timestamp="1659093138504">
+    <state width="1899" height="272" key="GridCell.Tab.0.left" timestamp="1660828753955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.left/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277976" />
-    <state width="1899" height="272" key="GridCell.Tab.0.left/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1659093138504" />
+    <state width="1899" height="272" key="GridCell.Tab.0.left/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1660828753955" />
     <state width="1837" height="295" key="GridCell.Tab.0.left/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state width="1899" height="272" key="GridCell.Tab.0.right" timestamp="1659093138504">
+    <state width="1899" height="272" key="GridCell.Tab.0.right" timestamp="1660828753955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="281" key="GridCell.Tab.0.right/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556277977" />
-    <state width="1899" height="272" key="GridCell.Tab.0.right/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1659093138504" />
+    <state width="1899" height="272" key="GridCell.Tab.0.right/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1660828753955" />
     <state width="1837" height="295" key="GridCell.Tab.0.right/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120968255" />
-    <state x="538" y="252" key="Vcs.Push.Dialog.v2" timestamp="1658832883490">
+    <state x="538" y="252" key="Vcs.Push.Dialog.v2" timestamp="1659093909853">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="538" y="250" key="Vcs.Push.Dialog.v2/1920.6.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1657556041699" />
-    <state x="538" y="252" key="Vcs.Push.Dialog.v2/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1658832883490" />
+    <state x="538" y="252" key="Vcs.Push.Dialog.v2/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1659093909853" />
     <state x="583" y="260" key="Vcs.Push.Dialog.v2/1961.6.1239.720/62.0.1858.1080@62.0.1858.1080" timestamp="1657120046727" />
     <state x="646" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1659092972857">
       <screen x="0" y="0" width="1920" height="1050" />

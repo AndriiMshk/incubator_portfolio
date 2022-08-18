@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Title } from '../common/Title/Title';
 import container from '../common/styles/container.module.scss';
 import style from './main.module.scss';
-import ava from '../assets/img/main/avatar.png';
+import ava from '../assets/img/main/DSC_4301.jpg';
 import TypeIt from 'typeit-react';
 import Tilt from 'react-vanilla-tilt';
 
@@ -19,7 +19,7 @@ export const Main = () => {
         <div className={`${container.container} ${style.container}`}>
           <div className={style.photo}>
             <Tilt>
-              <img src={ava} alt="ava" />
+              <img src={ava} alt="ava"  />
             </Tilt>
           </div>
           <div className={style.greeting}>

@@ -22,6 +22,10 @@
 			width: 300px;
 			height: 300px;
 			@include flex(space-around, '', center);
+			text-align: center;
+			img {
+				height: 300px;
+			}
 		}
 		@media screen and (max-width: 770px) {
 			@include flex(center, column, center);
