@@ -21,16 +21,17 @@ export const projects = [
   {
     title: 'Social Network', description: 'Typescript, React, ' +
       'Redux, Rest API, Routes, classes, axios, thunk, redux-form, AntDesign', image: social,
-    link: 'https://andrmshk.github.io/portfolio-RS/'
+    link: 'https://andrmshk.github.io/social_new/'
   },
   {
     title: 'TodoList', description: 'Typescript, React, ' +
       'Redux, formik, Rest API, hooks, axios, thunk, Storybook, Jest, MUI', image: todo,
-    link: 'https://andrmshk.github.io/portfolio-RS/'
+    link: 'https://todolist031.herokuapp.com/'
   },
   { title: 'Cards', description: 'Typescript, React, ' +
       'Redux, formik, Rest API, hooks, axios, thunk, MUI', image: social,
-    link: 'https://andrmshk.github.io/portfolio-RS/' },
+    link: 'https://andrmshk.github.io/cards/'
+  },
   { title: 'RS School Project', description: 'Javascript, CSS', image: rs,
     link: 'https://andrmshk.github.io/portfolio-RS/'},
 ];
@@ -42,10 +43,10 @@ export const footerItems = [
 ];
 
 export const skills = [
-  { title: 'React', description: 'TypeScript, Javascript, classes, hooks, Routes', icon: react },
-  { title: 'Redux', description: 'Redux Toolkit, FLUX, redux-form, formik, thunk, saga', icon: redux },
-  { title: 'HTML+CSS', description: 'Saas(SCSS), adaptive, Material UI, Ant Design', icon: html },
-  { title: 'Rest API', description: 'ajax, axois, fetch, CRUD', icon: rest },
+  { title: 'React', description: 'TypeScript, Javascript, React Native, classes, hooks, Routes', icon: react },
+  { title: 'Redux', description: 'Redux Toolkit, FLUX, useForm, formik, thunk', icon: redux },
+  { title: 'HTML+CSS', description: 'Sass(SCSS),CSS Modules, adaptive, Material UI, Ant Design', icon: html },
+  { title: 'Rest API', description: 'ajax, axois, fetch, WebSocket', icon: rest },
   { title: 'jQuery', description: 'basic', icon: jquery },
   { title: 'Jest', description: 'Unit tests', icon: jest },
   { title: 'Git', description: '', icon: githab },
