@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b145273-85ae-4c61-b739-d418a6609527" name="Default Changelist" comment="add fade and burgerButton">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/container.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/container.module.scss" afterDir="false" />
+    <list default="true" id="3b145273-85ae-4c61-b739-d418a6609527" name="Default Changelist" comment="delete comments">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Header" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
@@ -63,19 +61,19 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\incubator\portfolio1\portfolio\src\Header\Nav\Burger" />
-      <recent name="D:\Code\incubator\portfolio1\portfolio\src\common\styles" />
-      <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets\img\main" />
-      <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets\img\footer" />
-      <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Header" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Header\Nav\Burger" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Header\Nav" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Footer" />
       <recent name="D:\Code\incubator\portfolio1\portfolio\src\Projects\ProjectItem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\Header\Nav\Burger" />
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\common\styles" />
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets\img\main" />
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets\img\footer" />
+      <recent name="D:\Code\incubator\portfolio1\portfolio\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -144,7 +142,7 @@
       <workItem from="1659696796565" duration="192000" />
       <workItem from="1660745303450" duration="1287000" />
       <workItem from="1660828657811" duration="252000" />
-      <workItem from="1667507764419" duration="23000" />
+      <workItem from="1667507764419" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="max width container.module.css">
       <created>1657120043097</created>
@@ -188,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659093905321</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="delete comments">
+      <created>1667507993920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667507993920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +218,8 @@
     <MESSAGE value="add mixin1" />
     <MESSAGE value="add comments" />
     <MESSAGE value="add fade and burgerButton" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fade and burgerButton" />
+    <MESSAGE value="delete comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="436" key="#ESLint" timestamp="1667507786623">
@@ -248,9 +254,10 @@
     </state>
     <state width="1899" height="272" key="GridCell.Tab.0.right/-1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1663313474796" />
     <state width="1899" height="272" key="GridCell.Tab.0.right/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1660828753955" />
-    <state x="538" y="252" key="Vcs.Push.Dialog.v2" timestamp="1659093909853">
+    <state x="538" y="252" key="Vcs.Push.Dialog.v2" timestamp="1667507996446">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="538" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1667507996446" />
     <state x="538" y="252" key="Vcs.Push.Dialog.v2/1920.6.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1659093909853" />
     <state x="646" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1659092972857">
       <screen x="0" y="0" width="1920" height="1050" />
