@@ -1,7 +1,6 @@
 @import "../styles/scss/mixins.scss";
 @import "../styles/scss/var.scss";
 
-
 .container {
   width: 80%;
   max-width: 1500px;
@@ -12,35 +11,3 @@
   box-sizing: border-box;
   padding-bottom: 30px;
 }
-
-/*
-    background: #333;    fon
-    color: #fff;     button white text
-        color: #337ab7	button text blue
-    color: #333; button color
-
-
-    font-size: 15px;
-    line-height: 1.7;
-    font-family: 'Raleway', sans-serif;
-
-
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-
-    border-bottom: 1px solid #ddd;
-        padding: 100px 0px;
-
-
-        font size
-        h2 30
-        h3 18
-        p 15
-        button 14
-scss     .scss
-timecode 2:20
-		 2:35
-		 2:50
-
-*/
