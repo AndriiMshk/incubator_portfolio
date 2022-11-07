@@ -18,8 +18,8 @@
 	justify-content: $justify-content;
 	flex-direction: $flex-direction;
 	align-items: $align-items;
-
 }
+
 @mixin rotateBurgerMenu($deg) {
 	transform: rotate($deg);
 	top: 0;
